@@ -1,0 +1,62 @@
+div p {
+    background: gold;
+}
+
+div > p {
+    background: aqua;
+}
+
+div ~ p {
+    background: #000;
+    color: white;
+}
+
+div + p {
+    background: red;
+}
+
+.edit_label {
+}
+.original_input {
+}
+.input-costum {
+    padding: 5px;
+    display: inline-block;
+    border-radius: 3px;
+    border: 2px solid black;
+    user-select: none;
+}
+
+.original_input:checked + .input-costum {
+    background: url(ping-pong.png);
+    background-size: cover;
+}
+
+.input-title {
+    user-select: none;
+}
+
+.iphone {
+    display: inline-block;
+    width: 41px;
+    border: 1px solid gray;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.orginal__input:checked + .input__customer {
+    margin-left: 24px;
+    background-color: greenyellow;
+}
+
+
+.input__customer {
+    padding: 8px;
+    display: inline-block;
+    background-color: red;
+    border-radius: 50%;
+    transition: 0.5s;
+}
